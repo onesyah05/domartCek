@@ -1,0 +1,104 @@
+fetch("https://ap-mc.klikindomaret.com/assets-klikidmorder/api/get/catalog-xpress/api/webapp/stores/nearest?latitude=-6.17638968675461&longitude=106.826664842964&page=0&keyword=petatal", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "apps": "{\"app_version\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\",\"device_class\":\"browser|browser\",\"device_family\":\"none\",\"device_id\":\"856666c8-840b-4cc1-8c91-77eaa6badc85\",\"os_name\":\"Windows\",\"os_version\":\"10\"}",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIiwiaXNFbXBsb3llZSI6ImZhbHNlIiwiZXh0ZXJuYWxDdXN0b21lcklkIjoiZTg3MDExYWQtZjJjMi00NGVjLWFmMzQtMmVkZDBiYmEzZDExIiwibmJmIjoxNzc1MzgxMjA4LCJzY29wZSI6Im1vYmlsZSIsImN1c3RvbWVySWQiOiIxNTgwNDgxMiIsImlzRHJhZnQiOiJmYWxzZSIsImV4cCI6MTc3NTM4NDgwOCwic2lkIjoiOWZjNGQ5YjktMTRiNS00YjRmLWIzYjUtYTgwOGQyYTA5NzA3IiwidXNlcm5hbWUiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIn0.R5p5Reh_LjX5MTNuB3mfG0VZqiIH5NVuGlZsbzAp0Z_tDtxEf4Y2jUihA_gWZoe51RTQOS8tT7KPbUoaQQ1p5QwUqJLHCiRBXrd0CUDykEVSNlvcJ5o1fo_GkRmK1E2Ab8groB8XqLMM3J1CrK0QsUKEfT3HHosKhY_aAfWYum0UloC8Y2eKYlCAvNPBBfRC93U-GiLqcpY0IlPpYGO74MJyU7fiEUfFHRSC3xC9fiPHRUfgxroRKFN51-KIPsZV34CB5X8faelmsRNDQLzc0K84NkZmhbYCCv9y53QNGHsz4Qm-7Z9e-eBLi1OUKa4k-FhQ2GqKjw-sqnh7M8OBOWWK_KvFSIcF00a6ml7kEaoquY3u_CINgOiJXWUTShuDac7UBzV0_eIHVOPtEyX6RnvtD5NgB1GFe-43cR4EM8fLf8Ft3lSbE26kYJVctpDX58uH-nHqeban23fpRcwcaQQJD3FECQQhIiU-yjrx7h-OMba9h_P--goJKldvTCmQv_IY3CDTCl1EHf9YaCQ6oOTQsCzSepE74kCAtMuJa3FZ-G-MWHBh40iQBdhv3CukXhSzudzMdJkMcDSzdMPgwPDL6QmO5iBnClZjM6uvvQ6Yj7WL82uFbdD4I3ZvV1DP6kdkAFOlp9niLCpCxNtfjCwiuEP-VkIyN5nsxPFnC_w",
+    "priority": "u=1, i",
+    "request-time": "2026-04-05 16:27:23GMT+7",
+    "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-aws-waf-token": "93bd1439-6b05-424e-8972-6b532bb261d4:GgoAmlBBYeUlAAAA:nYVfBCpJbBN44v3+jh2Wlhge6avua6r4gjsQpWiCOJp7JpypfngCSpDsVONZoilwOHUhZ4Ebm7GrHKrIhA3PLwij34WNrInIA37qasGSjGl0N9Jov+gO6XJBXicdS0tnSqcE+6m//56fQtEUnyPE2PRMTqdBhtK+6+wMaC+5Ir8kqtPlnDJxX7G87fu3iBGp1moM6RT4QHpTszydrL7lapEAplzqhuTksPILU+F4RANSklhPwLgGLQsSF7Qv3LG4CK+W+HgyvDFFF8FL",
+    "x-correlation-id": "bd9ffae6-4ba1-431e-b66d-67fc84d5cc15",
+    "Referer": "https://www.klikindomaret.com/"
+  },
+  "body": null,
+  "method": "GET"
+});
+
+{"status":"00","message":"Success","signature":null,"data":{"content":[{"storeCode":"THV7","storeType":"MOTHER STORE EXPRESS","storeName":"LINTAS SUMATERA PETATAL 130","indomaretStoreCode":"THV7","address":"JL.LINTAS SUMATERA KEL.PETATAL KEC.TALAWI KAB.BATU BARA","openingHour":"07:00","closingHour":"22:00","distance":1316.42,"distanceString":"1316.42 km","latitude":3.129325,"longitude":99.49735,"operational":true,"inCoverage":false,"dcCode":"G009","openDays":[{"index":1,"dayCode":"MONDAY","day":"Senin","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":2,"dayCode":"TUESDAY","day":"Selasa","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":3,"dayCode":"WEDNESDAY","day":"Rabu","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":4,"dayCode":"THURSDAY","day":"Kamis","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":5,"dayCode":"FRIDAY","day":"Jumat","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":6,"dayCode":"SATURDAY","day":"Sabtu","openingHour":"07:00","closingHour":"22:00","operational":true},{"index":7,"dayCode":"SUNDAY","day":"Minggu","openingHour":"07:00","closingHour":"22:00","operational":true}]}],"pageable":{"sort":{"empty":true,"unsorted":true,"sorted":false},"offset":0,"pageNumber":0,"pageSize":20,"paged":true,"unpaged":false},"totalElements":1,"totalPages":1,"last":true,"size":20,"number":0,"sort":{"empty":true,"unsorted":true,"sorted":false},"numberOfElements":1,"first":true,"empty":false},"timestamp":"2026-04-05T09:27:23.992611130Z"}
+
+--------------------------------------------------------------
+fetch("https://ap-mc.klikindomaret.com/assets-klikidmorder/api/tracker", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIiwiaXNFbXBsb3llZSI6ImZhbHNlIiwiZXh0ZXJuYWxDdXN0b21lcklkIjoiZTg3MDExYWQtZjJjMi00NGVjLWFmMzQtMmVkZDBiYmEzZDExIiwibmJmIjoxNzc1MzgxMjA4LCJzY29wZSI6Im1vYmlsZSIsImN1c3RvbWVySWQiOiIxNTgwNDgxMiIsImlzRHJhZnQiOiJmYWxzZSIsImV4cCI6MTc3NTM4NDgwOCwic2lkIjoiOWZjNGQ5YjktMTRiNS00YjRmLWIzYjUtYTgwOGQyYTA5NzA3IiwidXNlcm5hbWUiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIn0.R5p5Reh_LjX5MTNuB3mfG0VZqiIH5NVuGlZsbzAp0Z_tDtxEf4Y2jUihA_gWZoe51RTQOS8tT7KPbUoaQQ1p5QwUqJLHCiRBXrd0CUDykEVSNlvcJ5o1fo_GkRmK1E2Ab8groB8XqLMM3J1CrK0QsUKEfT3HHosKhY_aAfWYum0UloC8Y2eKYlCAvNPBBfRC93U-GiLqcpY0IlPpYGO74MJyU7fiEUfFHRSC3xC9fiPHRUfgxroRKFN51-KIPsZV34CB5X8faelmsRNDQLzc0K84NkZmhbYCCv9y53QNGHsz4Qm-7Z9e-eBLi1OUKa4k-FhQ2GqKjw-sqnh7M8OBOWWK_KvFSIcF00a6ml7kEaoquY3u_CINgOiJXWUTShuDac7UBzV0_eIHVOPtEyX6RnvtD5NgB1GFe-43cR4EM8fLf8Ft3lSbE26kYJVctpDX58uH-nHqeban23fpRcwcaQQJD3FECQQhIiU-yjrx7h-OMba9h_P--goJKldvTCmQv_IY3CDTCl1EHf9YaCQ6oOTQsCzSepE74kCAtMuJa3FZ-G-MWHBh40iQBdhv3CukXhSzudzMdJkMcDSzdMPgwPDL6QmO5iBnClZjM6uvvQ6Yj7WL82uFbdD4I3ZvV1DP6kdkAFOlp9niLCpCxNtfjCwiuEP-VkIyN5nsxPFnC_w",
+    "content-type": "application/json",
+    "priority": "u=1, i",
+    "request-time": "2026-04-05 16:29:21GMT+7",
+    "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-aws-waf-token": "93bd1439-6b05-424e-8972-6b532bb261d4:GgoAmcJA3a8WAAAA:/tGSA5Uz7h00LRT5I1sZyQs3JSsKFGUwA74pnjSO7gQSDWRvc6ar3EdiM/QNhAPsvnB19clf6dRPavjoFH9w0llrTiARyzxcBtR4OqOw9RRNM0Scqr+1TXg2UZg9UF/lSIuvUxZE9oqP8TjWnY/W4KQIxMfvwTroCvE6EplmSMPDTcK6xBZk2ylCu3O36SziX5g/9XjThLSYRRsiWfTgxdZvdCp6AOMtBbV8eAIlfAfnU+3CPCpYCFPCB8qDGigeVL7YRrA8xXsLIPIt",
+    "x-correlation-id": "f6619960-eae0-4b40-8a78-fb3c05ff7248",
+    "Referer": "https://www.klikindomaret.com/"
+  },
+  "body": "{\"data\":[{\"core\":{\"event_name\":\"click_link\",\"event_category\":\"Daftar Toko\",\"event_timestamp\":\"1775381361\",\"pageview_id\":\"Home1775381361\",\"event_id\":194,\"link_label\":\"Pilih Toko\",\"link_url\":\"\",\"page_name\":\"Home\",\"details\":\"\",\"service\":\"XPRESS\"},\"user\":{\"session_id\":\"856666c8-840b-4cc1-8c91-77eaa6badc85-1775381361\",\"user_id\":\"\"},\"application\":{\"source_name\":\"web\",\"os_name\":\"Windows\",\"os_version\":\"10\",\"os_timezone\":\"\",\"device_id\":\"856666c8-840b-4cc1-8c91-77eaa6badc85\",\"browser_name\":\"Chrome\"},\"network\":{},\"marketing\":{\"utm_raw\":\"\"}}]}",
+  "method": "POST"
+});
+
+
+"OK"
+
+------------------------------------------------------------------
+fetch("https://ap-mc.klikindomaret.com/assets-klikidmorder/api/post/cartgeneral/api/webapp/cart/set-mode", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIiwiaXNFbXBsb3llZSI6ImZhbHNlIiwiZXh0ZXJuYWxDdXN0b21lcklkIjoiZTg3MDExYWQtZjJjMi00NGVjLWFmMzQtMmVkZDBiYmEzZDExIiwibmJmIjoxNzc1MzgxMjA4LCJzY29wZSI6Im1vYmlsZSIsImN1c3RvbWVySWQiOiIxNTgwNDgxMiIsImlzRHJhZnQiOiJmYWxzZSIsImV4cCI6MTc3NTM4NDgwOCwic2lkIjoiOWZjNGQ5YjktMTRiNS00YjRmLWIzYjUtYTgwOGQyYTA5NzA3IiwidXNlcm5hbWUiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIn0.R5p5Reh_LjX5MTNuB3mfG0VZqiIH5NVuGlZsbzAp0Z_tDtxEf4Y2jUihA_gWZoe51RTQOS8tT7KPbUoaQQ1p5QwUqJLHCiRBXrd0CUDykEVSNlvcJ5o1fo_GkRmK1E2Ab8groB8XqLMM3J1CrK0QsUKEfT3HHosKhY_aAfWYum0UloC8Y2eKYlCAvNPBBfRC93U-GiLqcpY0IlPpYGO74MJyU7fiEUfFHRSC3xC9fiPHRUfgxroRKFN51-KIPsZV34CB5X8faelmsRNDQLzc0K84NkZmhbYCCv9y53QNGHsz4Qm-7Z9e-eBLi1OUKa4k-FhQ2GqKjw-sqnh7M8OBOWWK_KvFSIcF00a6ml7kEaoquY3u_CINgOiJXWUTShuDac7UBzV0_eIHVOPtEyX6RnvtD5NgB1GFe-43cR4EM8fLf8Ft3lSbE26kYJVctpDX58uH-nHqeban23fpRcwcaQQJD3FECQQhIiU-yjrx7h-OMba9h_P--goJKldvTCmQv_IY3CDTCl1EHf9YaCQ6oOTQsCzSepE74kCAtMuJa3FZ-G-MWHBh40iQBdhv3CukXhSzudzMdJkMcDSzdMPgwPDL6QmO5iBnClZjM6uvvQ6Yj7WL82uFbdD4I3ZvV1DP6kdkAFOlp9niLCpCxNtfjCwiuEP-VkIyN5nsxPFnC_w",
+    "content-type": "application/json",
+    "priority": "u=1, i",
+    "request-time": "2026-04-05 16:30:53GMT+7",
+    "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-aws-waf-token": "93bd1439-6b05-424e-8972-6b532bb261d4:GgoAmcJA3a8WAAAA:/tGSA5Uz7h00LRT5I1sZyQs3JSsKFGUwA74pnjSO7gQSDWRvc6ar3EdiM/QNhAPsvnB19clf6dRPavjoFH9w0llrTiARyzxcBtR4OqOw9RRNM0Scqr+1TXg2UZg9UF/lSIuvUxZE9oqP8TjWnY/W4KQIxMfvwTroCvE6EplmSMPDTcK6xBZk2ylCu3O36SziX5g/9XjThLSYRRsiWfTgxdZvdCp6AOMtBbV8eAIlfAfnU+3CPCpYCFPCB8qDGigeVL7YRrA8xXsLIPIt",
+    "x-correlation-id": "da682a5e-703f-4282-8507-69f140c0efa6",
+    "Referer": "https://www.klikindomaret.com/"
+  },
+  "body": "{\"mode\":\"XPRESS_PICKUP\",\"pickupStoreCode\":\"THV7\",\"selectedStore\":null}",
+  "method": "POST"
+});
+
+{"status":"00","message":"Success","data":{"mode":"XPRESS_PICKUP","pickupStoreCode":"THV7","selectedStore":{"virtualStoreCode":"TWX6","storeCode":"THV7","storeName":"LINTAS SUMATERA PETATAL 130","postalCode":"21254","phone":"0800000000","address":"JL.LINTAS SUMATERA KEL.PETATAL KEC.TALAWI KAB.BATU BARA","latitude":3.129325,"longitude":99.49735,"timeZone":"WIB"}},"timestamp":"2026-04-05T09:30:53.874+00:00","signature":null}
+
+------------------------------------------------------------
+fetch("https://ap-mc.klikindomaret.com/assets-klikidmcore/api/post/cart-xpress/api/webapp/cart/add-to-cart", {
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+    "accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",
+    "apps": "{\"app_version\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\",\"device_class\":\"browser|browser\",\"device_family\":\"none\",\"device_id\":\"856666c8-840b-4cc1-8c91-77eaa6badc85\",\"os_name\":\"Windows\",\"os_version\":\"10\"}",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIiwiaXNFbXBsb3llZSI6ImZhbHNlIiwiZXh0ZXJuYWxDdXN0b21lcklkIjoiZTg3MDExYWQtZjJjMi00NGVjLWFmMzQtMmVkZDBiYmEzZDExIiwibmJmIjoxNzc1MzgxMjA4LCJzY29wZSI6Im1vYmlsZSIsImN1c3RvbWVySWQiOiIxNTgwNDgxMiIsImlzRHJhZnQiOiJmYWxzZSIsImV4cCI6MTc3NTM4NDgwOCwic2lkIjoiOWZjNGQ5YjktMTRiNS00YjRmLWIzYjUtYTgwOGQyYTA5NzA3IiwidXNlcm5hbWUiOiJjdXN0LTE1ODA0ODEyQGtsaWtpbmRvbWFyZXQuY29tIn0.R5p5Reh_LjX5MTNuB3mfG0VZqiIH5NVuGlZsbzAp0Z_tDtxEf4Y2jUihA_gWZoe51RTQOS8tT7KPbUoaQQ1p5QwUqJLHCiRBXrd0CUDykEVSNlvcJ5o1fo_GkRmK1E2Ab8groB8XqLMM3J1CrK0QsUKEfT3HHosKhY_aAfWYum0UloC8Y2eKYlCAvNPBBfRC93U-GiLqcpY0IlPpYGO74MJyU7fiEUfFHRSC3xC9fiPHRUfgxroRKFN51-KIPsZV34CB5X8faelmsRNDQLzc0K84NkZmhbYCCv9y53QNGHsz4Qm-7Z9e-eBLi1OUKa4k-FhQ2GqKjw-sqnh7M8OBOWWK_KvFSIcF00a6ml7kEaoquY3u_CINgOiJXWUTShuDac7UBzV0_eIHVOPtEyX6RnvtD5NgB1GFe-43cR4EM8fLf8Ft3lSbE26kYJVctpDX58uH-nHqeban23fpRcwcaQQJD3FECQQhIiU-yjrx7h-OMba9h_P--goJKldvTCmQv_IY3CDTCl1EHf9YaCQ6oOTQsCzSepE74kCAtMuJa3FZ-G-MWHBh40iQBdhv3CukXhSzudzMdJkMcDSzdMPgwPDL6QmO5iBnClZjM6uvvQ6Yj7WL82uFbdD4I3ZvV1DP6kdkAFOlp9niLCpCxNtfjCwiuEP-VkIyN5nsxPFnC_w",
+    "content-type": "application/json",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-aws-waf-token": "93bd1439-6b05-424e-8972-6b532bb261d4:GgoAtcZCFo4gAAAA:pa/Dv68Q7AztKFG1ib0X+uyBOPWTeZp0PsN1OithIEvvrz9kcpakz/7CuzqxTt8v8vrMuqwlfgjxgEVKtFpfQOBP0LPbZawsNoF0BLORFZK2AhjJ6sBkb+swfIPOl9HAAciLZEsm377GCRW4NPENoUz1eclNq7ezIWlDQb5OCwEq4JNyXQOWCt5N66oWIlt9AC4w0Ou+AdbYBotH1mgh0/uiQjaTjQQYJFbQ+3mygXJGE6iMvFSpx5NvE/Z4hQFuClpptANvMLz+GnX7",
+    "x-correlation-id": "38d48cb9-d500-4877-afc8-35c91bf766eb",
+    "Referer": "https://www.klikindomaret.com/"
+  },
+  "body": "{\"storeCode\":\"THV7\",\"latitude\":-6.17638968675461,\"longitude\":106.826664842964,\"mode\":\"PICKUP\",\"districtId\":140200469,\"products\":[{\"plu\":\"20134862\",\"qty\":1}]}",
+  "method": "POST"
+});
+
+
+{"status":"00","message":"Success","data":{"products":[{"promoId":null,"cartDetailId":340214550,"permalink":"collectible-trading-card","isSelected":true,"categoryPackage":null,"maxQtyPackage":null,"qty":1,"atcQty":1,"normalQty":1,"promoQty":0,"productId":92907,"plu":"20134862","parentPlu":null,"productName":"Free Fire Collectible Trading Card","stock":1,"stockDiff":0,"imageUrl":"https://cdn-klik.klikindomaret.com/klik-catalog/product/20134862_1.jpg","thumbnail":"https://cdn-klik.klikindomaret.com/klik-catalog/product/20134862_thumb.jpg","price":28000,"finalPrice":null,"hidePrice":false,"discountValue":null,"discountText":null,"isVariant":false,"promoType":null,"promoText":null,"promoQtyDiff":0,"minQty":1,"isAvailable":true,"maxPromoQty":null,"availableQtyStruk":null,"minStrukQty":null,"maxStrukQty":null,"additionalMessage":null,"promoMessage":null,"additionalMessageShown":null,"isPromoEmpty":null,"promoKindId":null,"promoKindName":null,"discountSubText":null,"exhausted":null,"exceeded":null,"promoTitle":null,"promoInfo":null,"unlimitedQuota":null,"otherPromo":0,"isVariantPromo":null,"colorText":null,"colorBackground":null,"variant":null,"pairProducts":null,"loyaltyAmount":null,"maxPromoMessage":null,"separatePurchase":false,"otherPromoText":null,"otherPromoTextType":null,"promoCode":null,"uniquePlu":null,"productPackage":false,"perishable":false}],"promoList":[],"grossAmount":28000,"shippingFee":0,"discountAmount":0,"totalProductAmount":28000,"totalAmount":28000,"totalItem":1,"cartId":"62253587","toastMessage":[],"selectedStore":{"storeCode":"TWX6","physicalStoreCode":"THV7","storeName":"LINTAS SUMATERA PETATAL 130","address":"JL.LINTAS SUMATERA KEL.PETATAL KEC.TALAWI KAB.BATU BARA","priority":1,"distance":1316.42,"latitude":3.129325,"longitude":99.49735,"totalPluCount":1,"availablePluCount":1,"availableQtyCount":1,"ppnFree":false,"selected":false,"isFulfilled":true},"shippingList":[],"orderType":"XPRESS","discountDetails":[],"promoFairList":[],"havePromoNonbase":false,"dataTracker":{"stock":[{"plu":"20134862","stockDetail":[{"store":"THV7","stock":1}]}],"productRequest":[],"productStockout":[],"promoFairList":[]},"fairToastMessage":null,"fairTebusMurahHadiah":{"hasFair":false,"hasConfirmFairCheckout":false,"totalFairTebusMurah":null,"fairMessage":null},"listProductTebusMurahHadiah":[],"promoFairTebusMurahHadiahList":[],"quotaFairTebusMurah":[],"packageNotActive":false},"timestamp":"2026-04-05T09:37:58.553+00:00","signature":null}
+
+{"status":"00","message":"Success","data":{"cartId":"62253587","toastMessage":["Stok produk ini habis"],"orderType":"XPRESS","havePromoNonbase":false,"dataTracker":{"stock":[],"productRequest":[],"productStockout":[{"plu":"20134684","promoCode":null,"price":null,"finalPrice":null,"discountValue":null,"discountText":null,"atcQty":1}],"promoFairList":[]},"fairToastMessage":null,"fairTebusMurahHadiah":{"hasFair":false,"hasConfirmFairCheckout":false,"totalFairTebusMurah":null,"fairMessage":null},"promoFairTebusMurahHadiahList":[],"quotaFairTebusMurah":[],"packageNotActive":false},"timestamp":"2026-04-05T09:39:31.254+00:00","signature":null}
+-----------------------------------------------------------------------
+
